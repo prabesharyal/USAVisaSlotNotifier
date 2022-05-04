@@ -27,11 +27,13 @@ This bot is make specifically for one purpose. That is to monitor visa appointme
  - javascript :(paste this)
  ```
 // Start Pasting From Here
-function refresh(secs) {document.documentElement.innerHTML = '<body style="margin:0px;padding:0px;overflow:hidden"><iframe frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%" id="p" src="' + window.location.href + '"></iframe></body>'
+function refresh(secs) {
+  document.documentElement.innerHTML = '<body style="margin:0px;padding:0px;overflow:hidden"><iframe frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%" id="p" src="' + window.location.href + '"></iframe></body>'
   setInterval(() => document.getElementById('p').src = document.getElementById('p').src, secs * 1000)
 }
+
 refresh(10) // 10 here means This page will refresh every 10 seconds
- // paste upto here UP 
+ // paste upto here
  ```
  
 > ***Note Section***
@@ -39,7 +41,22 @@ refresh(10) // 10 here means This page will refresh every 10 seconds
 > - *Edit variables in edit.py file. That's sufficient.*
 		
 		
-
+# Get Variables
+## Bot Token
+ - You can get Telegram Bot Token from BotFather bot on telegram.
+ 
+## Tesseract Location
+ - Go to C:\Program Files or C:\Program Files(X86) and locate Tesseract-OCR and then locate the exact software location.
+ 
+## Screen Coordinate
+ - Use save.py to locate the screen coordinate if the program can't show any text.
+ - You can run this and determine at first whether the correct region is being captured or not.
+ 
+## Getting Chat Ids
+ - Go to group help (@GroupHelpBot) or Rose (@missRose_bot) on telegram and type
+> - /info @username for public groups/users/channels
+> - For private channels or users you have to add bot and users in one same group and send /info command (by mentioning for users).
+ 
 ***Distributed Under GPL by @PrabeshAryalNP on social or @PrabeshAryal on code sites.***
 		
 		
