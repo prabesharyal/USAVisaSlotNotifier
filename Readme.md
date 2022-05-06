@@ -18,7 +18,7 @@
 # Read this throughly before deploying the bot: <a name="1"></a>
 
 ## What is this bot about?<a name="1.1"></a>
-This bot is make specifically for one purpose. That is to monitor visa appointment schedules in your screen and send notification whenever there is change in available dates.
+This bot is made specifically for one purpose which is to monitor visa appointment schedules in your screen and send notification whenever there is change in available dates.
 
 ## How does this bot work?<a name="1.2"></a>
 > **This bot works in various steps as :**
