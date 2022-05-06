@@ -3,13 +3,11 @@
     1. [Abot Bot](#1.1)
 	2. [Working Principle](#1.2)
 	3. [VIP Section](#1.3)
-	
  2. [Get All Variables](#2)
 	1. [BOT Token](#2.1)
     2. [Tesseract Location](#2.2)
 	3. [Screen Coordinate](#2.3)
 	4. [Chat ID's](#2.4)
-
  3. [Required Softwares](#3)
     1. [Python](#3.1)
 		1. [PIPs](#3.1.1)
@@ -37,14 +35,15 @@ This bot is make specifically for one purpose. That is to monitor visa appointme
 
 ## VIP Section (root of bot)<a name="1.3"></a>
 
->This bot just captures screen, it doesn't have any access to website of cgi federal.So you've to refresh your browser yourself.
+>This bot just captures screen, it doesn't have any access to website of cgi federal. Nor it does other tasks on website. So you've to login and refresh your browser yourself.
 >
 >Instead refreshig everytime,you can refresh the cgi federal logged in dash page by using the script below.
 >
->Press **CTRL+SHIFT+I** and **Ctrl+V** and then **Enter** in that page. 
->Close that side pane. Now, the pagewill be refreshed every *'N' seconds* as said in the code.
+>For that :
+> - Press **CTRL+SHIFT+I** and **Ctrl+V** and then **Enter** in that page. 
+> - Close that side pane. Now, the pagewill be refreshed every *'N' seconds* as said in the code.
 
- - javascript :(paste this)
+ - javascript :(paste this) <a name="jscript"></a>
  ```
 // Start Pasting From Here
 function refresh(secs) {
@@ -70,14 +69,14 @@ refresh(10) // 10 here means This page will refresh every 10 seconds
  
 ## Tesseract Location <a name="2.2"></a>
  - Go to C:\Program Files or C:\Program Files(X86) and locate Tesseract-OCR and then locate the exact software location.
- - > *First Install it from From Below*
+ - > *First Install it from From [Below](#3.2)*
  
 ## Screen Coordinate <a name="2.3"></a>
  - Use save.py to locate the screen coordinate if the program can't show any text.
  - You can run this and determine at first whether the correct region is being captured or not.
  
 ## Getting Chat Ids <a name="2.4"></a>
- - Go to group help (@GroupHelpBot) or Rose (@missRose_bot) on telegram and type
+ - Go to [GroupHelpBot](https://t.me/GroupHelpBot) or [Rose Bot](https://t.me/MissRose_bot) on telegram and type
 > - /info @username for public groups/users/channels
 > - For private channels or users you have to add bot and users in one same group and send /info command (by mentioning for users).
 
@@ -110,6 +109,7 @@ refresh(10) // 10 here means This page will refresh every 10 seconds
 - Install Python, Python Snippets and Tesseract-OCR Executable using above methods
 - Download all files in this repo.
 - Insert **Bot Token**, **User ID** , **Tesseract-OCR's Location** in *edit.py* file .
+- Open [CGI Federal Website](https://cgifederal.secure.force.com/) and Log In using **Dummy Account** and the paste this [script](#jscript)
 - **Shift + Right Click** inside the folder where the files are located and select *Open Command Window here*
 
 > Type ***any one*** of the following command on terminal to run bot:
@@ -117,8 +117,11 @@ refresh(10) // 10 here means This page will refresh every 10 seconds
 > - `python bot.py`
 > - `python3 bot.py`
 
+- Now, maximize CGI's website if not already. Bot will send updates to groups/users whenever there is change in date.
+- Also all logs are saved in logfile.
+
 
 # License <a name="lic"></a>
-> Distributed Under GPL by [@PrabeshAryalNP](https://twitter.com/prabesharyalnp) on social or [@PrabeshAryal](https://github.com/prabesharyal) on code sites.
+> Distributed Under GPL by [@PrabeshAryalNP](https://facebook.com/prabesharyalnp) on [social](https://twitter.com/prabesharyalnp) or [@PrabeshAryal](https://github.com/prabesharyal) on code sites.
 		
 		
