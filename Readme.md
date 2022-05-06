@@ -106,10 +106,10 @@ refresh(10) // 10 here means This page will refresh every 10 seconds
 
 # Deploying the bot <a name="4"></a>
 
-- Install Python, Python Snippets and Tesseract-OCR Executable using above methods
+- Install Python, Python Snippets and Tesseract-OCR Executable using [above methods](#3)
 - Download all files in this repo.
-- Insert **Bot Token**, **User ID** , **Tesseract-OCR's Location** in *edit.py* file .
-- Open [CGI Federal Website](https://cgifederal.secure.force.com/) and Log In using **Dummy Account** and the paste this [script](#jscript)
+- Insert **[Bot Token](#2.1)**, **[User ID](#2.4)** , **[Tesseract-OCR's Location](#2.2)** in *edit.py* file .
+- Open **[CGI Federal Website](https://cgifederal.secure.force.com/)** and Log In using **Dummy Account** and the paste this [script](#jscript)
 - **Shift + Right Click** inside the folder where the files are located and select *Open Command Window here*
 
 > Type ***any one*** of the following command on terminal to run bot:
