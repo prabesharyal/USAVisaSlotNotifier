@@ -11,6 +11,7 @@ import cv2
 #Importing specific datas
 from PIL import ImageGrab
 from edit import *
+from playsound import playsound
 
 #Telegram API
 key = bot_api_token
@@ -60,6 +61,8 @@ def imToString():
 		    logger.info("It's New Date. So, sending message.")
 		    chatid = users
 		    usercounter=1
+		    playsound('sound.mp3')
+		    logger.critical("The sound was played.") 
 		    for chat_id in chatid:
 		        parameters = {"chat_id" : chat_id, "text" : "***"+message+"***"}
 		        resp = requests.get(base_url, data = parameters)
