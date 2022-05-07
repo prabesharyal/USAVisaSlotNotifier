@@ -11,7 +11,6 @@ import cv2
 #Importing specific datas
 from PIL import ImageGrab
 from edit import *
-from playsound import playsound
 from pygame import mixer
 
 #Telegram API
