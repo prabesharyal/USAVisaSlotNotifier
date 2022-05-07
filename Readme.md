@@ -73,7 +73,7 @@ refresh(10) // 10 here means This page will refresh every 10 seconds
  
 ## Screen Coordinate <a name="2.3"></a>
  - Use save.py to locate the screen coordinate if the program can't show any text.
- - You can run this and determine at first whether the correct region is being captured or not.
+ - You can run `py save.py` and determine at first whether the correct region is being captured or not.
  
 ## Getting Chat Ids <a name="2.4"></a>
  - Go to [GroupHelpBot](https://t.me/GroupHelpBot) or [Rose Bot](https://t.me/MissRose_bot) on telegram and type
