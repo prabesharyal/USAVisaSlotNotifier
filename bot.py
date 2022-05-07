@@ -12,6 +12,7 @@ import cv2
 from PIL import ImageGrab
 from edit import *
 from playsound import playsound
+from pygame import mixer
 
 #Telegram API
 key = bot_api_token
@@ -61,7 +62,9 @@ def imToString():
 		    logger.info("It's New Date. So, sending message.")
 		    chatid = users
 		    usercounter=1
-		    playsound('sound.mp3')
+		    mixer.init()
+		    mixer.music.load('sound.mp3') #Loading Music File
+		    mixer.music.play() #Playing Music with Pygame
 		    logger.critical("The sound was played.") 
 		    for chat_id in chatid:
 		        parameters = {"chat_id" : chat_id, "text" : "***"+message+"***"}
@@ -69,6 +72,7 @@ def imToString():
 		        logger.info(resp.text)
 		        print("Sent to user : "+ str(usercounter) + " who is " + chat_id)
 		        usercounter = usercounter + 1
+		    mixer.music.stop()
 		if message == "":
 		    logger.critical("The scan was empty.") 
 		    message=(asdf)
