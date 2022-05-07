@@ -94,6 +94,7 @@ refresh(10) // 10 here means This page will refresh every 10 seconds
 > - `pip install pytesseract`
 > - `pip install numpy`
 > - `pip install opencv-python`
+> - `pip install pygame`
 
 - __Install all other missing modules using :__
 > - `pip install missing_module_name`
