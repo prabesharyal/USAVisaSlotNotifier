@@ -65,7 +65,7 @@ refresh(10) // 10 here means This page will refresh every 10 seconds
 # Get Variables <a name="2"></a>
 
 ## Bot Token <a name="2.1"></a>
- - You can get Telegram Bot Token from BotFather bot on telegram.
+ - You can get Telegram Bot Token from [BotFather](https://t.me/BotFather) bot on telegram.
  
 ## Tesseract Location <a name="2.2"></a>
  - Go to C:\Program Files or C:\Program Files(X86) and locate Tesseract-OCR and then locate the exact software location.
