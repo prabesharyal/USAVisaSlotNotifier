@@ -25,6 +25,7 @@ This bot is made specifically for one purpose which is to monitor visa appointme
 > - It screenshot your screen's area which is defined in "edit.py".
 > - It converts the screenshot toblack and white photo.
 > - It scans the photo and converts photo to text using TesseractOCR.
+> - It also plays alarm sound on admin's PC if new date is available.
 > - Finally, It sends message to the defined (as many as) users in "edit.py".
 > - Also, if the message is same as previous  it will skip. 
 > - It will also skip empty messages for a reason defined below in **[VIP section](#1.3)**.
