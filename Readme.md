@@ -23,13 +23,13 @@ This bot is made specifically for one purpose which is to monitor visa appointme
 ## How does this bot work?<a name="1.2"></a>
 > **This bot works in various steps as :**
 > - It screenshot your screen's area which is defined in "edit.py".
-> - It converts the screenshot toblack and white photo.
+> - It converts the screenshot to black and white photo.
 > - It scans the photo and converts photo to text using TesseractOCR.
 > - It also plays alarm sound on admin's PC if new date is available.
 > - Finally, It sends message to the defined (as many as) users in "edit.py".
 > - Also, if the message is same as previous  it will skip. 
 > - It will also skip empty messages for a reason defined below in **[VIP section](#1.3)**.
-> - It prints logs to txt per session. After a session log file is reset.
+> - It prints all logs to logfile.
 		
 
 
@@ -38,7 +38,7 @@ This bot is made specifically for one purpose which is to monitor visa appointme
 
 >This bot just captures screen, it doesn't have any access to website of cgi federal. Nor it does other tasks on website. So you've to login and refresh your browser yourself.
 >
->Instead refreshig everytime,you can refresh the cgi federal logged in dash page by using the script below.
+>Instead refreshing everytime,you can refresh the cgi federal logged in dash page by using the script below.
 >
 >For that :
 > - Press **CTRL+SHIFT+I** and **Ctrl+V** and then **Enter** in that page. 
