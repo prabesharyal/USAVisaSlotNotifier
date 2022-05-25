@@ -25,7 +25,7 @@ This bot is make specifically for one purpose. That is to monitor visa appointme
 > - The appointment class is extracted and only Day and Dates are Noted.
 > - Finally, It sends message to the defined (as many as) users in "edit.py".
 > - Also, if the date is same as previous  it will skip. 
-> - It prints logs to txt per session. After a session log file is reset.
+> - It prints logs to txt per session. After a session log file is not reset.
 		
 
 > ***Note Section***
