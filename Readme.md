@@ -39,6 +39,7 @@ This bot is make specifically for one purpose. That is to monitor visa appointme
  - You can get Telegram Bot Token from BotFather bot on telegram.
  
 ## Getting Session Cookies <a name="2.2"></a>
+- **To get Session cookies, first login to CGI website in Chrome browser Manually and get the cookies using the [extension](#3.2) mentioned below.**
 - Paste Your Session Cookies in JSON, Here's an example of format, paste your own.
 > - [This Extension](#3.2) works fine, but you'll need to replace "*true*" & "*false*" by  **True** and **False** Respectively .
 > - Sample Cookie: ```[{
