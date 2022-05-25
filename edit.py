@@ -1,16 +1,21 @@
 #Insert Bot API Token"
-bot_api_token = 'BOT API token from BotFather'
-
-#path of tesseract software
-pathoftocr = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
-
-#Screen Area To Capture, determine using the module "save.py" available with this.
-coordinates = (200,440, 275, 100)
+bot_api_token = 'Insert Here Token from BotFather'
 
 #UserID Of users whom you want to send Notifications
-users = {"996638940","-1001751969549"}
+users = {"996638940"}
 
 #Time interval which you want your bot to scan webpage in seconds
-refreshtime = 8
+refreshtime = 10
 
-#distributed under GPL License by @PrabeshAryalNP
+#Paste Your Session Cookies in JSON, This is just example of format, paste your own.
+#This extension works fine, but you'll need to replace "true" & "false by " True and "False" Respectively . https://bit.ly/38PRX6f
+cookies = [{
+    "name": "CookieConsentPolicy",
+    "value": "0:1",
+    "domain": "cgifederal.secure.force.com",
+    "path": "/",
+    "expires": 1230456.25,
+    "httpOnly": False,
+    "secure": False
+  }, {similar},{similar}
+  ]
