@@ -1,4 +1,5 @@
 #Importing Modules
+from lib2to3.pytree import Base
 import time
 import logging
 import requests
@@ -39,7 +40,7 @@ for cookies in cookies:
     driver.add_cookie(cookies)
 driver.implicitly_wait(2)
 driver.get("https://cgifederal.secure.force.com/applicanthome")
-driver.refresh
+driver.refresh()
 time.sleep(5)
 
 class label(Exception): pass  # declare a label
@@ -56,7 +57,14 @@ def imToString():
 			#Finding Available Date
 		while(True):	
 			try:
-				element = driver.find_element(By.CLASS_NAME, value="leftPanelText")
+				try:
+					element = driver.find_element(By.CLASS_NAME, value="leftPanelText")
+				except Exception as err:
+					print("Refreshing page in 10 seconds cause element not found... ")
+					time.sleep(10)
+					print("Refreshing now .....")
+					driver.refresh()
+					continue
 				availabledate = element.text
 				message = availabledate[31:][:-1]
 				t = time.localtime()
@@ -97,6 +105,7 @@ def imToString():
 				driver.refresh()
 				break
 			except BaseException as err:
+				print(err)
 				print("Probably the dummy account got banned. Till I create new, Bot is Down")
 				chatid = users
 				usercounter=1
