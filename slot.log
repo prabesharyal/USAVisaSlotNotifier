@@ -1,0 +1,923 @@
+2022-07-03 20:48:56,832 POST http://localhost:41199/session/2a2590f47f23761d61bba33dc45cc198/url {"url": "https://cgifederal.secure.force.com"}
+2022-07-03 20:49:08,238 POST http://localhost:37767/session/8544c772601459229c15ccd4e4decb62/url {"url": "https://cgifederal.secure.force.com"}
+2022-07-03 20:49:22,437 http://localhost:37767 "POST /session/8544c772601459229c15ccd4e4decb62/url HTTP/1.1" 200 14
+2022-07-03 20:49:22,438 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:49:22,438 Finished Request
+2022-07-03 20:49:22,438 POST http://localhost:37767/session/8544c772601459229c15ccd4e4decb62/timeouts {"implicit": 3000}
+2022-07-03 20:49:22,439 http://localhost:37767 "POST /session/8544c772601459229c15ccd4e4decb62/timeouts HTTP/1.1" 200 14
+2022-07-03 20:49:22,439 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:49:22,439 Finished Request
+2022-07-03 20:49:22,439 POST http://localhost:37767/session/8544c772601459229c15ccd4e4decb62/cookie {"cookie": {"name": "CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1230456.25, "httpOnly": false, "secure": false}}
+2022-07-03 20:49:22,444 http://localhost:37767 "POST /session/8544c772601459229c15ccd4e4decb62/cookie HTTP/1.1" 200 14
+2022-07-03 20:49:22,445 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:49:22,445 Finished Request
+2022-07-03 20:49:22,445 POST http://localhost:37767/session/8544c772601459229c15ccd4e4decb62/timeouts {"implicit": 2000}
+2022-07-03 20:49:22,446 http://localhost:37767 "POST /session/8544c772601459229c15ccd4e4decb62/timeouts HTTP/1.1" 200 14
+2022-07-03 20:49:22,447 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:49:22,447 Finished Request
+2022-07-03 20:49:22,447 POST http://localhost:37767/session/8544c772601459229c15ccd4e4decb62/url {"url": "https://cgifederal.secure.force.com/applicanthome"}
+2022-07-03 20:49:26,600 http://localhost:37767 "POST /session/8544c772601459229c15ccd4e4decb62/url HTTP/1.1" 200 14
+2022-07-03 20:49:26,600 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:49:26,601 Finished Request
+2022-07-03 20:49:31,606 Log No : 1
+2022-07-03 20:49:31,606 POST http://localhost:37767/session/8544c772601459229c15ccd4e4decb62/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 20:49:33,382 http://localhost:37767 "POST /session/8544c772601459229c15ccd4e4decb62/element HTTP/1.1" 200 14
+2022-07-03 20:49:33,382 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:49:33,382 Finished Request
+2022-07-03 20:49:33,383 The class wasn't found
+2022-07-03 20:49:33,386 Starting new HTTPS connection (1): api.telegram.org:443
+2022-07-03 20:55:40,465 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/url {"url": "https://cgifederal.secure.force.com"}
+2022-07-03 20:55:50,292 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/url HTTP/1.1" 200 14
+2022-07-03 20:55:50,292 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,292 Finished Request
+2022-07-03 20:55:50,292 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/timeouts {"implicit": 3000}
+2022-07-03 20:55:50,293 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/timeouts HTTP/1.1" 200 14
+2022-07-03 20:55:50,293 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,293 Finished Request
+2022-07-03 20:55:50,293 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450298, "httpOnly": false, "secure": false}}
+2022-07-03 20:55:50,298 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,299 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,299 Finished Request
+2022-07-03 20:55:50,299 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "LSKey-c$CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450379, "httpOnly": false, "secure": false}}
+2022-07-03 20:55:50,304 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,304 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,304 Finished Request
+2022-07-03 20:55:50,305 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "BrowserId", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450407, "httpOnly": false, "secure": false}}
+2022-07-03 20:55:50,308 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,308 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,308 Finished Request
+2022-07-03 20:55:50,308 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "BrowserId_sec", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450432, "httpOnly": false, "secure": true}}
+2022-07-03 20:55:50,311 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,311 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,311 Finished Request
+2022-07-03 20:55:50,312 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "__utma", "value": "1.1700014254.1656860731.1656860731.1656860731.1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1719932949, "httpOnly": false, "secure": false}}
+2022-07-03 20:55:50,315 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,315 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,315 Finished Request
+2022-07-03 20:55:50,315 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "__utmc", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": false}}
+2022-07-03 20:55:50,319 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,320 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,320 Finished Request
+2022-07-03 20:55:50,320 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "__utmz", "value": "1.1656860731.1.1.utmcsr=github.com|utmccn=(referral)|utmcmd=referral|utmcct=/sarthak-pokharel/USAVisaSlotNotifier", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1672628949, "httpOnly": false, "secure": false}}
+2022-07-03 20:55:50,323 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,323 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,323 Finished Request
+2022-07-03 20:55:50,323 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "__utmt", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656861331, "httpOnly": false, "secure": false}}
+2022-07-03 20:55:50,326 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,327 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,327 Finished Request
+2022-07-03 20:55:50,327 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "oinfo", "value": "c3RhdHVzPUFDVElWRSZ0eXBlPTYmb2lkPTAwREMwMDAwMDAwUGh1UA==", "domain": ".force.com", "path": "/", "expires": 1662044853.03895, "httpOnly": false, "secure": true}}
+2022-07-03 20:55:50,330 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,330 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,330 Finished Request
+2022-07-03 20:55:50,330 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "autocomplete", "value": "1", "domain": ".force.com", "path": "/", "expires": 1662044853.470398, "httpOnly": false, "secure": true}}
+2022-07-03 20:55:50,333 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,334 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,334 Finished Request
+2022-07-03 20:55:50,334 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "lloopch_loid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.47047, "httpOnly": false, "secure": true}}
+2022-07-03 20:55:50,337 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,337 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,337 Finished Request
+2022-07-03 20:55:50,337 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "lloopch_lpid", "value": "060C0000000QwL9", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.470512, "httpOnly": false, "secure": true}}
+2022-07-03 20:55:50,340 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,341 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,341 Finished Request
+2022-07-03 20:55:50,341 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "sid", "value": "00DC0000000PhuP!ARwAQPqBaO15pjWaN89_rj6Ys9QAAp_dwrc90qM8we601DHYity02OWXVab4IwRSP6qBM5mv_eIjskv.6y9mSAIAz4ffNsx5", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 20:55:50,344 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,345 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,345 Finished Request
+2022-07-03 20:55:50,345 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "sid_Client", "value": "d000001Okqs0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 20:55:50,348 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,348 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,348 Finished Request
+2022-07-03 20:55:50,348 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "clientSrc", "value": "110.44.120.35", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 20:55:50,351 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,352 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,352 Finished Request
+2022-07-03 20:55:50,352 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "inst", "value": "APP_3d", "domain": ".force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 20:55:50,355 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,355 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,355 Finished Request
+2022-07-03 20:55:50,355 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "oid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1719932853.47067, "httpOnly": false, "secure": true}}
+2022-07-03 20:55:50,358 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,358 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,358 Finished Request
+2022-07-03 20:55:50,358 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "apex__aa-time", "value": "hb_2BmDfvFU3UDe9mcB5k8Jg_3D_3D", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396855.229473, "httpOnly": false, "secure": true}}
+2022-07-03 20:55:50,361 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,361 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,361 Finished Request
+2022-07-03 20:55:50,361 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/cookie {"cookie": {"name": "__utmb", "value": "1.5.10.1656860731", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656862749, "httpOnly": false, "secure": false}}
+2022-07-03 20:55:50,364 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/cookie HTTP/1.1" 200 14
+2022-07-03 20:55:50,364 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,365 Finished Request
+2022-07-03 20:55:50,365 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/timeouts {"implicit": 2000}
+2022-07-03 20:55:50,365 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/timeouts HTTP/1.1" 200 14
+2022-07-03 20:55:50,366 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:50,366 Finished Request
+2022-07-03 20:55:50,366 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/url {"url": "https://cgifederal.secure.force.com/applicanthome"}
+2022-07-03 20:55:54,691 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/url HTTP/1.1" 200 14
+2022-07-03 20:55:54,692 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:55:54,692 Finished Request
+2022-07-03 20:55:59,697 Log No : 1
+2022-07-03 20:55:59,698 POST http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 20:56:01,727 http://localhost:43571 "POST /session/43073f6b38bca69e87dda0499f197e21/element HTTP/1.1" 404 865
+2022-07-03 20:56:01,727 Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".leftPanelText\"}\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x55ce1d87ab13 \u003Cunknown>\n#1 0x55ce1d681688 \u003Cunknown>\n#2 0x55ce1d6b8cc7 \u003Cunknown>\n#3 0x55ce1d6b8e91 \u003Cunknown>\n#4 0x55ce1d6ebe34 \u003Cunknown>\n#5 0x55ce1d6d68dd \u003Cunknown>\n#6 0x55ce1d6e9b94 \u003Cunknown>\n#7 0x55ce1d6d67a3 \u003Cunknown>\n#8 0x55ce1d6ac0ea \u003Cunknown>\n#9 0x55ce1d6ad225 \u003Cunknown>\n#10 0x55ce1d8c22dd \u003Cunknown>\n#11 0x55ce1d8c62c7 \u003Cunknown>\n#12 0x55ce1d8ac22e \u003Cunknown>\n#13 0x55ce1d8c70a8 \u003Cunknown>\n#14 0x55ce1d8a0bc0 \u003Cunknown>\n#15 0x55ce1d8e36c8 \u003Cunknown>\n#16 0x55ce1d8e3848 \u003Cunknown>\n#17 0x55ce1d8fdc0d \u003Cunknown>\n#18 0x7fe7cb5f6947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '865', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:56:01,727 Finished Request
+2022-07-03 20:56:01,728 The class wasn't found
+2022-07-03 20:56:01,730 Starting new HTTPS connection (1): api.telegram.org:443
+2022-07-03 20:56:03,679 https://api.telegram.org:443 "GET /botInsert%20Here%20Token%20from%20BotFather/sendMessage?parse_mode=MARKDOWN HTTP/1.1" 404 55
+2022-07-03 20:56:03,680 {"ok":false,"error_code":404,"description":"Not Found"}
+2022-07-03 20:56:03,681 DELETE http://localhost:43571/session/43073f6b38bca69e87dda0499f197e21/window {}
+2022-07-03 20:56:03,817 http://localhost:43571 "DELETE /session/43073f6b38bca69e87dda0499f197e21/window HTTP/1.1" 200 12
+2022-07-03 20:56:03,818 Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:56:03,818 Finished Request
+2022-07-03 20:59:04,649 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/url {"url": "https://cgifederal.secure.force.com"}
+2022-07-03 20:59:17,306 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/url HTTP/1.1" 200 14
+2022-07-03 20:59:17,306 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,306 Finished Request
+2022-07-03 20:59:17,306 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/timeouts {"implicit": 3000}
+2022-07-03 20:59:17,307 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/timeouts HTTP/1.1" 200 14
+2022-07-03 20:59:17,308 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,308 Finished Request
+2022-07-03 20:59:17,308 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450298, "httpOnly": false, "secure": false}}
+2022-07-03 20:59:17,314 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,315 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,315 Finished Request
+2022-07-03 20:59:17,315 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "LSKey-c$CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450379, "httpOnly": false, "secure": false}}
+2022-07-03 20:59:17,319 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,319 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,319 Finished Request
+2022-07-03 20:59:17,320 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "BrowserId", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450407, "httpOnly": false, "secure": false}}
+2022-07-03 20:59:17,324 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,324 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,325 Finished Request
+2022-07-03 20:59:17,325 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "BrowserId_sec", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450432, "httpOnly": false, "secure": true}}
+2022-07-03 20:59:17,329 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,329 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,329 Finished Request
+2022-07-03 20:59:17,330 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "__utma", "value": "1.1700014254.1656860731.1656860731.1656860731.1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1719932949, "httpOnly": false, "secure": false}}
+2022-07-03 20:59:17,335 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,335 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,335 Finished Request
+2022-07-03 20:59:17,336 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "__utmc", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": false}}
+2022-07-03 20:59:17,340 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,340 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,341 Finished Request
+2022-07-03 20:59:17,341 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "__utmz", "value": "1.1656860731.1.1.utmcsr=github.com|utmccn=(referral)|utmcmd=referral|utmcct=/sarthak-pokharel/USAVisaSlotNotifier", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1672628949, "httpOnly": false, "secure": false}}
+2022-07-03 20:59:17,345 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,346 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,346 Finished Request
+2022-07-03 20:59:17,346 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "__utmt", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656861331, "httpOnly": false, "secure": false}}
+2022-07-03 20:59:17,353 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,354 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,354 Finished Request
+2022-07-03 20:59:17,354 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "oinfo", "value": "c3RhdHVzPUFDVElWRSZ0eXBlPTYmb2lkPTAwREMwMDAwMDAwUGh1UA==", "domain": ".force.com", "path": "/", "expires": 1662044853.03895, "httpOnly": false, "secure": true}}
+2022-07-03 20:59:17,358 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,359 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,359 Finished Request
+2022-07-03 20:59:17,359 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "autocomplete", "value": "1", "domain": ".force.com", "path": "/", "expires": 1662044853.470398, "httpOnly": false, "secure": true}}
+2022-07-03 20:59:17,365 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,366 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,366 Finished Request
+2022-07-03 20:59:17,366 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "lloopch_loid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.47047, "httpOnly": false, "secure": true}}
+2022-07-03 20:59:17,373 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,374 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,374 Finished Request
+2022-07-03 20:59:17,374 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "lloopch_lpid", "value": "060C0000000QwL9", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.470512, "httpOnly": false, "secure": true}}
+2022-07-03 20:59:17,378 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,379 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,379 Finished Request
+2022-07-03 20:59:17,379 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "sid", "value": "00DC0000000PhuP!ARwAQPqBaO15pjWaN89_rj6Ys9QAAp_dwrc90qM8we601DHYity02OWXVab4IwRSP6qBM5mv_eIjskv.6y9mSAIAz4ffNsx5", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 20:59:17,383 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,383 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,383 Finished Request
+2022-07-03 20:59:17,383 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "sid_Client", "value": "d000001Okqs0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 20:59:17,389 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,390 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,390 Finished Request
+2022-07-03 20:59:17,390 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "clientSrc", "value": "110.44.120.35", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 20:59:17,394 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,395 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,395 Finished Request
+2022-07-03 20:59:17,395 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "inst", "value": "APP_3d", "domain": ".force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 20:59:17,398 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,398 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,398 Finished Request
+2022-07-03 20:59:17,399 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "oid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1719932853.47067, "httpOnly": false, "secure": true}}
+2022-07-03 20:59:17,406 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,406 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,406 Finished Request
+2022-07-03 20:59:17,407 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "apex__aa-time", "value": "hb_2BmDfvFU3UDe9mcB5k8Jg_3D_3D", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396855.229473, "httpOnly": false, "secure": true}}
+2022-07-03 20:59:17,410 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,411 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,411 Finished Request
+2022-07-03 20:59:17,411 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/cookie {"cookie": {"name": "__utmb", "value": "1.5.10.1656860731", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656862749, "httpOnly": false, "secure": false}}
+2022-07-03 20:59:17,414 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/cookie HTTP/1.1" 200 14
+2022-07-03 20:59:17,414 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,414 Finished Request
+2022-07-03 20:59:17,414 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/timeouts {"implicit": 2000}
+2022-07-03 20:59:17,415 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/timeouts HTTP/1.1" 200 14
+2022-07-03 20:59:17,415 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:17,415 Finished Request
+2022-07-03 20:59:17,415 POST http://localhost:55695/session/131d332e9446fef48b4a1bfd2b075e6d/url {"url": "https://cgifederal.secure.force.com/applicanthome"}
+2022-07-03 20:59:19,031 http://localhost:55695 "POST /session/131d332e9446fef48b4a1bfd2b075e6d/url HTTP/1.1" 500 1099
+2022-07-03 20:59:19,031 Remote response: status=500 | data={"value":{"error":"unknown error","message":"unknown error: cannot determine loading status\nfrom unknown error: unexpected command response\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x5608739e5b13 \u003Cunknown>\n#1 0x5608737ec688 \u003Cunknown>\n#2 0x5608737d9d58 \u003Cunknown>\n#3 0x5608737d9372 \u003Cunknown>\n#4 0x5608737d8815 \u003Cunknown>\n#5 0x5608737d74df \u003Cunknown>\n#6 0x5608737d7a9c \u003Cunknown>\n#7 0x5608737e4b1f \u003Cunknown>\n#8 0x5608737e5682 \u003Cunknown>\n#9 0x5608737f3c2d \u003Cunknown>\n#10 0x5608737f7b4a \u003Cunknown>\n#11 0x5608737d7ec6 \u003Cunknown>\n#12 0x5608737f37d1 \u003Cunknown>\n#13 0x560873854f98 \u003Cunknown>\n#14 0x5608738417a3 \u003Cunknown>\n#15 0x5608738170ea \u003Cunknown>\n#16 0x560873818225 \u003Cunknown>\n#17 0x560873a2d2dd \u003Cunknown>\n#18 0x560873a312c7 \u003Cunknown>\n#19 0x560873a1722e \u003Cunknown>\n#20 0x560873a320a8 \u003Cunknown>\n#21 0x560873a0bbc0 \u003Cunknown>\n#22 0x560873a4e6c8 \u003Cunknown>\n#23 0x560873a4e848 \u003Cunknown>\n#24 0x560873a68c0d \u003Cunknown>\n#25 0x7f3aa579c947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '1099', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 20:59:19,031 Finished Request
+2022-07-03 21:00:36,277 POST http://localhost:53283/session/ba514d436f89d3e63b287093ea1341f9/url {"url": "https://cgifederal.secure.force.com"}
+2022-07-03 21:00:36,659 http://localhost:53283 "POST /session/ba514d436f89d3e63b287093ea1341f9/url HTTP/1.1" 500 1244
+2022-07-03 21:00:36,659 Remote response: status=500 | data={"value":{"error":"unknown error","message":"unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x560d8cc83b13 \u003Cunknown>\n#1 0x560d8ca8a688 \u003Cunknown>\n#2 0x560d8ca778f5 \u003Cunknown>\n#3 0x560d8ca77355 \u003Cunknown>\n#4 0x560d8ca76815 \u003Cunknown>\n#5 0x560d8ca754df \u003Cunknown>\n#6 0x560d8ca75a9c \u003Cunknown>\n#7 0x560d8ca840c5 \u003Cunknown>\n#8 0x560d8ca770a6 \u003Cunknown>\n#9 0x560d8ca77fbb \u003Cunknown>\n#10 0x560d8ca77372 \u003Cunknown>\n#11 0x560d8ca76815 \u003Cunknown>\n#12 0x560d8ca754df \u003Cunknown>\n#13 0x560d8ca75942 \u003Cunknown>\n#14 0x560d8ca8c0e2 \u003Cunknown>\n#15 0x560d8caf32ef \u003Cunknown>\n#16 0x560d8cadf8b2 \u003Cunknown>\n#17 0x560d8caf2b94 \u003Cunknown>\n#18 0x560d8cadf7a3 \u003Cunknown>\n#19 0x560d8cab50ea \u003Cunknown>\n#20 0x560d8cab6225 \u003Cunknown>\n#21 0x560d8cccb2dd \u003Cunknown>\n#22 0x560d8cccf2c7 \u003Cunknown>\n#23 0x560d8ccb522e \u003Cunknown>\n#24 0x560d8ccd00a8 \u003Cunknown>\n#25 0x560d8cca9bc0 \u003Cunknown>\n#26 0x560d8ccec6c8 \u003Cunknown>\n#27 0x560d8ccec848 \u003Cunknown>\n#28 0x560d8cd06c0d \u003Cunknown>\n#29 0x7fe83c580947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '1244', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:36,659 Finished Request
+2022-07-03 21:00:45,660 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/url {"url": "https://cgifederal.secure.force.com"}
+2022-07-03 21:00:53,287 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/url HTTP/1.1" 200 14
+2022-07-03 21:00:53,287 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,287 Finished Request
+2022-07-03 21:00:53,287 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/timeouts {"implicit": 3000}
+2022-07-03 21:00:53,290 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/timeouts HTTP/1.1" 200 14
+2022-07-03 21:00:53,291 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,291 Finished Request
+2022-07-03 21:00:53,291 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450298, "httpOnly": false, "secure": false}}
+2022-07-03 21:00:53,297 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,298 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,298 Finished Request
+2022-07-03 21:00:53,298 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "LSKey-c$CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450379, "httpOnly": false, "secure": false}}
+2022-07-03 21:00:53,302 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,302 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,302 Finished Request
+2022-07-03 21:00:53,302 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "BrowserId", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450407, "httpOnly": false, "secure": false}}
+2022-07-03 21:00:53,306 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,307 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,307 Finished Request
+2022-07-03 21:00:53,307 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "BrowserId_sec", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450432, "httpOnly": false, "secure": true}}
+2022-07-03 21:00:53,310 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,310 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,310 Finished Request
+2022-07-03 21:00:53,310 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "__utma", "value": "1.1700014254.1656860731.1656860731.1656860731.1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1719932949, "httpOnly": false, "secure": false}}
+2022-07-03 21:00:53,313 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,313 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,313 Finished Request
+2022-07-03 21:00:53,314 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "__utmc", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": false}}
+2022-07-03 21:00:53,316 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,317 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,317 Finished Request
+2022-07-03 21:00:53,317 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "__utmz", "value": "1.1656860731.1.1.utmcsr=github.com|utmccn=(referral)|utmcmd=referral|utmcct=/sarthak-pokharel/USAVisaSlotNotifier", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1672628949, "httpOnly": false, "secure": false}}
+2022-07-03 21:00:53,320 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,321 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,321 Finished Request
+2022-07-03 21:00:53,321 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "__utmt", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656861331, "httpOnly": false, "secure": false}}
+2022-07-03 21:00:53,325 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,325 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,325 Finished Request
+2022-07-03 21:00:53,325 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "oinfo", "value": "c3RhdHVzPUFDVElWRSZ0eXBlPTYmb2lkPTAwREMwMDAwMDAwUGh1UA==", "domain": ".force.com", "path": "/", "expires": 1662044853.03895, "httpOnly": false, "secure": true}}
+2022-07-03 21:00:53,328 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,328 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,329 Finished Request
+2022-07-03 21:00:53,329 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "autocomplete", "value": "1", "domain": ".force.com", "path": "/", "expires": 1662044853.470398, "httpOnly": false, "secure": true}}
+2022-07-03 21:00:53,332 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,333 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,333 Finished Request
+2022-07-03 21:00:53,333 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "lloopch_loid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.47047, "httpOnly": false, "secure": true}}
+2022-07-03 21:00:53,336 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,336 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,336 Finished Request
+2022-07-03 21:00:53,336 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "lloopch_lpid", "value": "060C0000000QwL9", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.470512, "httpOnly": false, "secure": true}}
+2022-07-03 21:00:53,340 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,340 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,340 Finished Request
+2022-07-03 21:00:53,340 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "sid", "value": "00DC0000000PhuP!ARwAQPqBaO15pjWaN89_rj6Ys9QAAp_dwrc90qM8we601DHYity02OWXVab4IwRSP6qBM5mv_eIjskv.6y9mSAIAz4ffNsx5", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:00:53,343 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,343 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,343 Finished Request
+2022-07-03 21:00:53,343 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "sid_Client", "value": "d000001Okqs0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:00:53,346 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,347 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,347 Finished Request
+2022-07-03 21:00:53,347 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "clientSrc", "value": "110.44.120.35", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:00:53,350 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,350 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,350 Finished Request
+2022-07-03 21:00:53,350 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "inst", "value": "APP_3d", "domain": ".force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:00:53,353 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,354 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,354 Finished Request
+2022-07-03 21:00:53,354 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "oid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1719932853.47067, "httpOnly": false, "secure": true}}
+2022-07-03 21:00:53,357 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,357 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,357 Finished Request
+2022-07-03 21:00:53,357 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "apex__aa-time", "value": "hb_2BmDfvFU3UDe9mcB5k8Jg_3D_3D", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396855.229473, "httpOnly": false, "secure": true}}
+2022-07-03 21:00:53,361 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,361 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,361 Finished Request
+2022-07-03 21:00:53,362 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/cookie {"cookie": {"name": "__utmb", "value": "1.5.10.1656860731", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656862749, "httpOnly": false, "secure": false}}
+2022-07-03 21:00:53,364 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/cookie HTTP/1.1" 200 14
+2022-07-03 21:00:53,365 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,365 Finished Request
+2022-07-03 21:00:53,365 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/timeouts {"implicit": 2000}
+2022-07-03 21:00:53,366 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/timeouts HTTP/1.1" 200 14
+2022-07-03 21:00:53,366 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:53,366 Finished Request
+2022-07-03 21:00:53,366 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/url {"url": "https://cgifederal.secure.force.com/applicanthome"}
+2022-07-03 21:00:59,645 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/url HTTP/1.1" 200 14
+2022-07-03 21:00:59,645 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:00:59,645 Finished Request
+2022-07-03 21:01:04,650 Log No : 1
+2022-07-03 21:01:04,650 POST http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:01:06,659 http://localhost:60859 "POST /session/3c16dbac49d04c3243cc29e2499cbbe7/element HTTP/1.1" 404 865
+2022-07-03 21:01:06,660 Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".leftPanelText\"}\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x564b19623b13 \u003Cunknown>\n#1 0x564b1942a688 \u003Cunknown>\n#2 0x564b19461cc7 \u003Cunknown>\n#3 0x564b19461e91 \u003Cunknown>\n#4 0x564b19494e34 \u003Cunknown>\n#5 0x564b1947f8dd \u003Cunknown>\n#6 0x564b19492b94 \u003Cunknown>\n#7 0x564b1947f7a3 \u003Cunknown>\n#8 0x564b194550ea \u003Cunknown>\n#9 0x564b19456225 \u003Cunknown>\n#10 0x564b1966b2dd \u003Cunknown>\n#11 0x564b1966f2c7 \u003Cunknown>\n#12 0x564b1965522e \u003Cunknown>\n#13 0x564b196700a8 \u003Cunknown>\n#14 0x564b19649bc0 \u003Cunknown>\n#15 0x564b1968c6c8 \u003Cunknown>\n#16 0x564b1968c848 \u003Cunknown>\n#17 0x564b196a6c0d \u003Cunknown>\n#18 0x7f961c00a947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '865', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:01:06,660 Finished Request
+2022-07-03 21:01:06,660 The class wasn't found
+2022-07-03 21:01:06,662 Starting new HTTPS connection (1): api.telegram.org:443
+2022-07-03 21:01:08,764 https://api.telegram.org:443 "GET /botInsert%20Here%20Token%20from%20BotFather/sendMessage?parse_mode=MARKDOWN HTTP/1.1" 404 55
+2022-07-03 21:01:08,766 {"ok":false,"error_code":404,"description":"Not Found"}
+2022-07-03 21:01:08,766 DELETE http://localhost:60859/session/3c16dbac49d04c3243cc29e2499cbbe7/window {}
+2022-07-03 21:01:08,878 http://localhost:60859 "DELETE /session/3c16dbac49d04c3243cc29e2499cbbe7/window HTTP/1.1" 200 12
+2022-07-03 21:01:08,878 Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:01:08,878 Finished Request
+2022-07-03 21:05:55,592 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/url {"url": "https://cgifederal.secure.force.com"}
+2022-07-03 21:06:21,072 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/url HTTP/1.1" 200 14
+2022-07-03 21:06:21,072 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,072 Finished Request
+2022-07-03 21:06:21,072 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/timeouts {"implicit": 3000}
+2022-07-03 21:06:21,074 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/timeouts HTTP/1.1" 200 14
+2022-07-03 21:06:21,074 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,074 Finished Request
+2022-07-03 21:06:21,074 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450298, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:21,080 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,080 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,080 Finished Request
+2022-07-03 21:06:21,081 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "LSKey-c$CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450379, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:21,084 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,085 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,085 Finished Request
+2022-07-03 21:06:21,085 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "BrowserId", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450407, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:21,089 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,089 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,089 Finished Request
+2022-07-03 21:06:21,089 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "BrowserId_sec", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450432, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:21,092 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,093 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,093 Finished Request
+2022-07-03 21:06:21,093 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "__utma", "value": "1.1700014254.1656860731.1656860731.1656860731.1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1719932949, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:21,097 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,098 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,098 Finished Request
+2022-07-03 21:06:21,098 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "__utmc", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:21,102 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,102 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,102 Finished Request
+2022-07-03 21:06:21,102 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "__utmz", "value": "1.1656860731.1.1.utmcsr=github.com|utmccn=(referral)|utmcmd=referral|utmcct=/sarthak-pokharel/USAVisaSlotNotifier", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1672628949, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:21,106 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,106 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,106 Finished Request
+2022-07-03 21:06:21,106 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "__utmt", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656861331, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:21,109 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,110 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,110 Finished Request
+2022-07-03 21:06:21,110 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "oinfo", "value": "c3RhdHVzPUFDVElWRSZ0eXBlPTYmb2lkPTAwREMwMDAwMDAwUGh1UA==", "domain": ".force.com", "path": "/", "expires": 1662044853.03895, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:21,113 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,114 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,114 Finished Request
+2022-07-03 21:06:21,114 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "autocomplete", "value": "1", "domain": ".force.com", "path": "/", "expires": 1662044853.470398, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:21,118 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,118 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,118 Finished Request
+2022-07-03 21:06:21,119 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "lloopch_loid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.47047, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:21,122 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,122 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,122 Finished Request
+2022-07-03 21:06:21,122 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "lloopch_lpid", "value": "060C0000000QwL9", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.470512, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:21,126 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,126 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,126 Finished Request
+2022-07-03 21:06:21,126 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "sid", "value": "00DC0000000PhuP!ARwAQPqBaO15pjWaN89_rj6Ys9QAAp_dwrc90qM8we601DHYity02OWXVab4IwRSP6qBM5mv_eIjskv.6y9mSAIAz4ffNsx5", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:21,129 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,129 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,129 Finished Request
+2022-07-03 21:06:21,129 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "sid_Client", "value": "d000001Okqs0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:21,133 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,133 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,133 Finished Request
+2022-07-03 21:06:21,134 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "clientSrc", "value": "110.44.120.35", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:21,136 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,137 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,137 Finished Request
+2022-07-03 21:06:21,137 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "inst", "value": "APP_3d", "domain": ".force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:21,140 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,140 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,140 Finished Request
+2022-07-03 21:06:21,140 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "oid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1719932853.47067, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:21,143 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,143 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,143 Finished Request
+2022-07-03 21:06:21,144 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "apex__aa-time", "value": "hb_2BmDfvFU3UDe9mcB5k8Jg_3D_3D", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396855.229473, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:21,146 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,147 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,147 Finished Request
+2022-07-03 21:06:21,147 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/cookie {"cookie": {"name": "__utmb", "value": "1.5.10.1656860731", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656862749, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:21,150 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:21,151 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,151 Finished Request
+2022-07-03 21:06:21,151 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/timeouts {"implicit": 2000}
+2022-07-03 21:06:21,151 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/timeouts HTTP/1.1" 200 14
+2022-07-03 21:06:21,152 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:21,152 Finished Request
+2022-07-03 21:06:21,152 POST http://localhost:40585/session/e30fa8bddacdf08e66197998ba54556d/url {"url": "https://cgifederal.secure.force.com/applicanthome"}
+2022-07-03 21:06:22,717 http://localhost:40585 "POST /session/e30fa8bddacdf08e66197998ba54556d/url HTTP/1.1" 500 836
+2022-07-03 21:06:22,718 Remote response: status=500 | data={"value":{"error":"unknown error","message":"unknown error: unexpected command response\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x559d79832b13 \u003Cunknown>\n#1 0x559d79639688 \u003Cunknown>\n#2 0x559d79626d58 \u003Cunknown>\n#3 0x559d79626372 \u003Cunknown>\n#4 0x559d79625815 \u003Cunknown>\n#5 0x559d79624f54 \u003Cunknown>\n#6 0x559d796407d1 \u003Cunknown>\n#7 0x559d796a1f98 \u003Cunknown>\n#8 0x559d7968e7a3 \u003Cunknown>\n#9 0x559d796640ea \u003Cunknown>\n#10 0x559d79665225 \u003Cunknown>\n#11 0x559d7987a2dd \u003Cunknown>\n#12 0x559d7987e2c7 \u003Cunknown>\n#13 0x559d7986422e \u003Cunknown>\n#14 0x559d7987f0a8 \u003Cunknown>\n#15 0x559d79858bc0 \u003Cunknown>\n#16 0x559d7989b6c8 \u003Cunknown>\n#17 0x559d7989b848 \u003Cunknown>\n#18 0x559d798b5c0d \u003Cunknown>\n#19 0x7f4ae9a59947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '836', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:22,718 Finished Request
+2022-07-03 21:06:39,883 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/url {"url": "https://cgifederal.secure.force.com"}
+2022-07-03 21:06:47,825 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/url HTTP/1.1" 200 14
+2022-07-03 21:06:47,826 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,826 Finished Request
+2022-07-03 21:06:47,826 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/timeouts {"implicit": 3000}
+2022-07-03 21:06:47,827 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/timeouts HTTP/1.1" 200 14
+2022-07-03 21:06:47,827 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,827 Finished Request
+2022-07-03 21:06:47,827 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450298, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:47,834 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,834 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,834 Finished Request
+2022-07-03 21:06:47,835 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "LSKey-c$CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450379, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:47,838 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,838 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,838 Finished Request
+2022-07-03 21:06:47,838 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "BrowserId", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450407, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:47,842 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,842 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,842 Finished Request
+2022-07-03 21:06:47,842 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "BrowserId_sec", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450432, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:47,845 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,846 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,847 Finished Request
+2022-07-03 21:06:47,847 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "__utma", "value": "1.1700014254.1656860731.1656860731.1656860731.1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1719932949, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:47,852 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,852 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,852 Finished Request
+2022-07-03 21:06:47,852 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "__utmc", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:47,855 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,855 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,855 Finished Request
+2022-07-03 21:06:47,855 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "__utmz", "value": "1.1656860731.1.1.utmcsr=github.com|utmccn=(referral)|utmcmd=referral|utmcct=/sarthak-pokharel/USAVisaSlotNotifier", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1672628949, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:47,858 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,858 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,859 Finished Request
+2022-07-03 21:06:47,859 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "__utmt", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656861331, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:47,861 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,862 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,862 Finished Request
+2022-07-03 21:06:47,862 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "oinfo", "value": "c3RhdHVzPUFDVElWRSZ0eXBlPTYmb2lkPTAwREMwMDAwMDAwUGh1UA==", "domain": ".force.com", "path": "/", "expires": 1662044853.03895, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:47,866 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,866 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,866 Finished Request
+2022-07-03 21:06:47,866 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "autocomplete", "value": "1", "domain": ".force.com", "path": "/", "expires": 1662044853.470398, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:47,869 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,869 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,869 Finished Request
+2022-07-03 21:06:47,870 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "lloopch_loid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.47047, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:47,873 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,873 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,873 Finished Request
+2022-07-03 21:06:47,873 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "lloopch_lpid", "value": "060C0000000QwL9", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.470512, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:47,876 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,876 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,876 Finished Request
+2022-07-03 21:06:47,876 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "sid", "value": "00DC0000000PhuP!ARwAQPqBaO15pjWaN89_rj6Ys9QAAp_dwrc90qM8we601DHYity02OWXVab4IwRSP6qBM5mv_eIjskv.6y9mSAIAz4ffNsx5", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:47,879 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,879 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,880 Finished Request
+2022-07-03 21:06:47,880 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "sid_Client", "value": "d000001Okqs0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:47,884 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,884 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,884 Finished Request
+2022-07-03 21:06:47,884 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "clientSrc", "value": "110.44.120.35", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:47,894 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,894 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,895 Finished Request
+2022-07-03 21:06:47,895 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "inst", "value": "APP_3d", "domain": ".force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:47,900 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,901 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,901 Finished Request
+2022-07-03 21:06:47,901 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "oid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1719932853.47067, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:47,903 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,904 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,904 Finished Request
+2022-07-03 21:06:47,904 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "apex__aa-time", "value": "hb_2BmDfvFU3UDe9mcB5k8Jg_3D_3D", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396855.229473, "httpOnly": false, "secure": true}}
+2022-07-03 21:06:47,907 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,907 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,907 Finished Request
+2022-07-03 21:06:47,907 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/cookie {"cookie": {"name": "__utmb", "value": "1.5.10.1656860731", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656862749, "httpOnly": false, "secure": false}}
+2022-07-03 21:06:47,910 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/cookie HTTP/1.1" 200 14
+2022-07-03 21:06:47,910 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,910 Finished Request
+2022-07-03 21:06:47,910 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/timeouts {"implicit": 2000}
+2022-07-03 21:06:47,911 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/timeouts HTTP/1.1" 200 14
+2022-07-03 21:06:47,911 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:47,911 Finished Request
+2022-07-03 21:06:47,911 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/url {"url": "https://cgifederal.secure.force.com/applicanthome"}
+2022-07-03 21:06:53,011 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/url HTTP/1.1" 200 14
+2022-07-03 21:06:53,011 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:53,011 Finished Request
+2022-07-03 21:06:53,011 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/refresh {}
+2022-07-03 21:06:55,353 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/refresh HTTP/1.1" 200 14
+2022-07-03 21:06:55,353 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:06:55,353 Finished Request
+2022-07-03 21:07:00,358 Log No : 1
+2022-07-03 21:07:00,358 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:07:02,397 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/element HTTP/1.1" 404 865
+2022-07-03 21:07:02,397 Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".leftPanelText\"}\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x5617b373fb13 \u003Cunknown>\n#1 0x5617b3546688 \u003Cunknown>\n#2 0x5617b357dcc7 \u003Cunknown>\n#3 0x5617b357de91 \u003Cunknown>\n#4 0x5617b35b0e34 \u003Cunknown>\n#5 0x5617b359b8dd \u003Cunknown>\n#6 0x5617b35aeb94 \u003Cunknown>\n#7 0x5617b359b7a3 \u003Cunknown>\n#8 0x5617b35710ea \u003Cunknown>\n#9 0x5617b3572225 \u003Cunknown>\n#10 0x5617b37872dd \u003Cunknown>\n#11 0x5617b378b2c7 \u003Cunknown>\n#12 0x5617b377122e \u003Cunknown>\n#13 0x5617b378c0a8 \u003Cunknown>\n#14 0x5617b3765bc0 \u003Cunknown>\n#15 0x5617b37a86c8 \u003Cunknown>\n#16 0x5617b37a8848 \u003Cunknown>\n#17 0x5617b37c2c0d \u003Cunknown>\n#18 0x7f16854b8947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '865', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:07:02,398 Finished Request
+2022-07-03 21:07:12,408 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:07:12,412 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/element HTTP/1.1" 500 821
+2022-07-03 21:07:12,413 Remote response: status=500 | data={"value":{"error":"chrome not reachable","message":"chrome not reachable\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x5617b373fb13 \u003Cunknown>\n#1 0x5617b354651f \u003Cunknown>\n#2 0x5617b3535c34 \u003Cunknown>\n#3 0x5617b353663e \u003Cunknown>\n#4 0x5617b3538482 \u003Cunknown>\n#5 0x5617b35307d6 \u003Cunknown>\n#6 0x5617b3547a72 \u003Cunknown>\n#7 0x5617b35ae211 \u003Cunknown>\n#8 0x5617b359b7a3 \u003Cunknown>\n#9 0x5617b35710ea \u003Cunknown>\n#10 0x5617b3572225 \u003Cunknown>\n#11 0x5617b37872dd \u003Cunknown>\n#12 0x5617b378b2c7 \u003Cunknown>\n#13 0x5617b377122e \u003Cunknown>\n#14 0x5617b378c0a8 \u003Cunknown>\n#15 0x5617b3765bc0 \u003Cunknown>\n#16 0x5617b37a86c8 \u003Cunknown>\n#17 0x5617b37a8848 \u003Cunknown>\n#18 0x5617b37c2c0d \u003Cunknown>\n#19 0x7f16854b8947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '821', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:07:12,413 Finished Request
+2022-07-03 21:07:22,423 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:07:22,428 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/element HTTP/1.1" 500 821
+2022-07-03 21:07:22,428 Remote response: status=500 | data={"value":{"error":"chrome not reachable","message":"chrome not reachable\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x5617b373fb13 \u003Cunknown>\n#1 0x5617b354651f \u003Cunknown>\n#2 0x5617b3535c34 \u003Cunknown>\n#3 0x5617b353663e \u003Cunknown>\n#4 0x5617b3538482 \u003Cunknown>\n#5 0x5617b35307d6 \u003Cunknown>\n#6 0x5617b3547a72 \u003Cunknown>\n#7 0x5617b35ae211 \u003Cunknown>\n#8 0x5617b359b7a3 \u003Cunknown>\n#9 0x5617b35710ea \u003Cunknown>\n#10 0x5617b3572225 \u003Cunknown>\n#11 0x5617b37872dd \u003Cunknown>\n#12 0x5617b378b2c7 \u003Cunknown>\n#13 0x5617b377122e \u003Cunknown>\n#14 0x5617b378c0a8 \u003Cunknown>\n#15 0x5617b3765bc0 \u003Cunknown>\n#16 0x5617b37a86c8 \u003Cunknown>\n#17 0x5617b37a8848 \u003Cunknown>\n#18 0x5617b37c2c0d \u003Cunknown>\n#19 0x7f16854b8947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '821', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:07:22,428 Finished Request
+2022-07-03 21:07:32,438 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:07:32,441 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/element HTTP/1.1" 500 821
+2022-07-03 21:07:32,442 Remote response: status=500 | data={"value":{"error":"chrome not reachable","message":"chrome not reachable\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x5617b373fb13 \u003Cunknown>\n#1 0x5617b354651f \u003Cunknown>\n#2 0x5617b3535c34 \u003Cunknown>\n#3 0x5617b353663e \u003Cunknown>\n#4 0x5617b3538482 \u003Cunknown>\n#5 0x5617b35307d6 \u003Cunknown>\n#6 0x5617b3547a72 \u003Cunknown>\n#7 0x5617b35ae211 \u003Cunknown>\n#8 0x5617b359b7a3 \u003Cunknown>\n#9 0x5617b35710ea \u003Cunknown>\n#10 0x5617b3572225 \u003Cunknown>\n#11 0x5617b37872dd \u003Cunknown>\n#12 0x5617b378b2c7 \u003Cunknown>\n#13 0x5617b377122e \u003Cunknown>\n#14 0x5617b378c0a8 \u003Cunknown>\n#15 0x5617b3765bc0 \u003Cunknown>\n#16 0x5617b37a86c8 \u003Cunknown>\n#17 0x5617b37a8848 \u003Cunknown>\n#18 0x5617b37c2c0d \u003Cunknown>\n#19 0x7f16854b8947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '821', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:07:32,442 Finished Request
+2022-07-03 21:07:42,450 POST http://localhost:49347/session/4236994d4bee024cd0025cac0ce3debe/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:07:42,455 http://localhost:49347 "POST /session/4236994d4bee024cd0025cac0ce3debe/element HTTP/1.1" 500 821
+2022-07-03 21:07:42,455 Remote response: status=500 | data={"value":{"error":"chrome not reachable","message":"chrome not reachable\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x5617b373fb13 \u003Cunknown>\n#1 0x5617b354651f \u003Cunknown>\n#2 0x5617b3535c34 \u003Cunknown>\n#3 0x5617b353663e \u003Cunknown>\n#4 0x5617b3538482 \u003Cunknown>\n#5 0x5617b35307d6 \u003Cunknown>\n#6 0x5617b3547a72 \u003Cunknown>\n#7 0x5617b35ae211 \u003Cunknown>\n#8 0x5617b359b7a3 \u003Cunknown>\n#9 0x5617b35710ea \u003Cunknown>\n#10 0x5617b3572225 \u003Cunknown>\n#11 0x5617b37872dd \u003Cunknown>\n#12 0x5617b378b2c7 \u003Cunknown>\n#13 0x5617b377122e \u003Cunknown>\n#14 0x5617b378c0a8 \u003Cunknown>\n#15 0x5617b3765bc0 \u003Cunknown>\n#16 0x5617b37a86c8 \u003Cunknown>\n#17 0x5617b37a8848 \u003Cunknown>\n#18 0x5617b37c2c0d \u003Cunknown>\n#19 0x7f16854b8947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '821', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:07:42,456 Finished Request
+2022-07-03 21:07:51,911 The class wasn't found
+2022-07-03 21:07:51,914 Starting new HTTPS connection (1): api.telegram.org:443
+2022-07-03 21:07:56,760 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/url {"url": "https://cgifederal.secure.force.com"}
+2022-07-03 21:08:03,206 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/url HTTP/1.1" 200 14
+2022-07-03 21:08:03,207 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,207 Finished Request
+2022-07-03 21:08:03,207 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/timeouts {"implicit": 3000}
+2022-07-03 21:08:03,208 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/timeouts HTTP/1.1" 200 14
+2022-07-03 21:08:03,208 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,208 Finished Request
+2022-07-03 21:08:03,209 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450298, "httpOnly": false, "secure": false}}
+2022-07-03 21:08:03,215 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,215 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,215 Finished Request
+2022-07-03 21:08:03,215 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "LSKey-c$CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450379, "httpOnly": false, "secure": false}}
+2022-07-03 21:08:03,221 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,221 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,221 Finished Request
+2022-07-03 21:08:03,221 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "BrowserId", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450407, "httpOnly": false, "secure": false}}
+2022-07-03 21:08:03,226 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,226 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,226 Finished Request
+2022-07-03 21:08:03,226 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "BrowserId_sec", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450432, "httpOnly": false, "secure": true}}
+2022-07-03 21:08:03,230 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,231 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,231 Finished Request
+2022-07-03 21:08:03,231 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "__utma", "value": "1.1700014254.1656860731.1656860731.1656860731.1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1719932949, "httpOnly": false, "secure": false}}
+2022-07-03 21:08:03,236 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,237 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,237 Finished Request
+2022-07-03 21:08:03,237 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "__utmc", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": false}}
+2022-07-03 21:08:03,241 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,241 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,241 Finished Request
+2022-07-03 21:08:03,241 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "__utmz", "value": "1.1656860731.1.1.utmcsr=github.com|utmccn=(referral)|utmcmd=referral|utmcct=/sarthak-pokharel/USAVisaSlotNotifier", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1672628949, "httpOnly": false, "secure": false}}
+2022-07-03 21:08:03,244 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,244 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,245 Finished Request
+2022-07-03 21:08:03,245 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "__utmt", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656861331, "httpOnly": false, "secure": false}}
+2022-07-03 21:08:03,248 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,248 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,248 Finished Request
+2022-07-03 21:08:03,248 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "oinfo", "value": "c3RhdHVzPUFDVElWRSZ0eXBlPTYmb2lkPTAwREMwMDAwMDAwUGh1UA==", "domain": ".force.com", "path": "/", "expires": 1662044853.03895, "httpOnly": false, "secure": true}}
+2022-07-03 21:08:03,253 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,254 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,254 Finished Request
+2022-07-03 21:08:03,254 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "autocomplete", "value": "1", "domain": ".force.com", "path": "/", "expires": 1662044853.470398, "httpOnly": false, "secure": true}}
+2022-07-03 21:08:03,258 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,258 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,258 Finished Request
+2022-07-03 21:08:03,258 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "lloopch_loid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.47047, "httpOnly": false, "secure": true}}
+2022-07-03 21:08:03,261 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,261 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,261 Finished Request
+2022-07-03 21:08:03,261 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "lloopch_lpid", "value": "060C0000000QwL9", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.470512, "httpOnly": false, "secure": true}}
+2022-07-03 21:08:03,264 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,265 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,265 Finished Request
+2022-07-03 21:08:03,265 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "sid", "value": "00DC0000000PhuP!ARwAQPqBaO15pjWaN89_rj6Ys9QAAp_dwrc90qM8we601DHYity02OWXVab4IwRSP6qBM5mv_eIjskv.6y9mSAIAz4ffNsx5", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:08:03,270 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,271 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,271 Finished Request
+2022-07-03 21:08:03,271 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "sid_Client", "value": "d000001Okqs0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:08:03,275 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,275 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,275 Finished Request
+2022-07-03 21:08:03,275 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "clientSrc", "value": "110.44.120.35", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:08:03,279 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,279 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,279 Finished Request
+2022-07-03 21:08:03,279 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "inst", "value": "APP_3d", "domain": ".force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:08:03,284 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,284 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,285 Finished Request
+2022-07-03 21:08:03,285 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "oid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1719932853.47067, "httpOnly": false, "secure": true}}
+2022-07-03 21:08:03,289 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,290 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,290 Finished Request
+2022-07-03 21:08:03,290 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "apex__aa-time", "value": "hb_2BmDfvFU3UDe9mcB5k8Jg_3D_3D", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396855.229473, "httpOnly": false, "secure": true}}
+2022-07-03 21:08:03,293 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,293 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,294 Finished Request
+2022-07-03 21:08:03,294 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/cookie {"cookie": {"name": "__utmb", "value": "1.5.10.1656860731", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656862749, "httpOnly": false, "secure": false}}
+2022-07-03 21:08:03,297 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/cookie HTTP/1.1" 200 14
+2022-07-03 21:08:03,297 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,297 Finished Request
+2022-07-03 21:08:03,297 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/timeouts {"implicit": 2000}
+2022-07-03 21:08:03,298 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/timeouts HTTP/1.1" 200 14
+2022-07-03 21:08:03,298 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:03,298 Finished Request
+2022-07-03 21:08:03,298 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/url {"url": "https://cgifederal.secure.force.com/applicanthome"}
+2022-07-03 21:08:08,340 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/url HTTP/1.1" 200 14
+2022-07-03 21:08:08,340 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:08,340 Finished Request
+2022-07-03 21:08:08,340 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/refresh {}
+2022-07-03 21:08:10,558 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/refresh HTTP/1.1" 200 14
+2022-07-03 21:08:10,558 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:10,558 Finished Request
+2022-07-03 21:08:15,562 Log No : 1
+2022-07-03 21:08:15,562 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:08:17,595 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/element HTTP/1.1" 404 865
+2022-07-03 21:08:17,596 Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".leftPanelText\"}\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x5580fdb86b13 \u003Cunknown>\n#1 0x5580fd98d688 \u003Cunknown>\n#2 0x5580fd9c4cc7 \u003Cunknown>\n#3 0x5580fd9c4e91 \u003Cunknown>\n#4 0x5580fd9f7e34 \u003Cunknown>\n#5 0x5580fd9e28dd \u003Cunknown>\n#6 0x5580fd9f5b94 \u003Cunknown>\n#7 0x5580fd9e27a3 \u003Cunknown>\n#8 0x5580fd9b80ea \u003Cunknown>\n#9 0x5580fd9b9225 \u003Cunknown>\n#10 0x5580fdbce2dd \u003Cunknown>\n#11 0x5580fdbd22c7 \u003Cunknown>\n#12 0x5580fdbb822e \u003Cunknown>\n#13 0x5580fdbd30a8 \u003Cunknown>\n#14 0x5580fdbacbc0 \u003Cunknown>\n#15 0x5580fdbef6c8 \u003Cunknown>\n#16 0x5580fdbef848 \u003Cunknown>\n#17 0x5580fdc09c0d \u003Cunknown>\n#18 0x7f9e8aa5a947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '865', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:17,596 Finished Request
+2022-07-03 21:08:27,606 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/refresh {}
+2022-07-03 21:08:30,167 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/refresh HTTP/1.1" 200 14
+2022-07-03 21:08:30,167 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:30,167 Finished Request
+2022-07-03 21:08:30,167 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:08:32,195 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/element HTTP/1.1" 404 865
+2022-07-03 21:08:32,195 Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".leftPanelText\"}\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x5580fdb86b13 \u003Cunknown>\n#1 0x5580fd98d688 \u003Cunknown>\n#2 0x5580fd9c4cc7 \u003Cunknown>\n#3 0x5580fd9c4e91 \u003Cunknown>\n#4 0x5580fd9f7e34 \u003Cunknown>\n#5 0x5580fd9e28dd \u003Cunknown>\n#6 0x5580fd9f5b94 \u003Cunknown>\n#7 0x5580fd9e27a3 \u003Cunknown>\n#8 0x5580fd9b80ea \u003Cunknown>\n#9 0x5580fd9b9225 \u003Cunknown>\n#10 0x5580fdbce2dd \u003Cunknown>\n#11 0x5580fdbd22c7 \u003Cunknown>\n#12 0x5580fdbb822e \u003Cunknown>\n#13 0x5580fdbd30a8 \u003Cunknown>\n#14 0x5580fdbacbc0 \u003Cunknown>\n#15 0x5580fdbef6c8 \u003Cunknown>\n#16 0x5580fdbef848 \u003Cunknown>\n#17 0x5580fdc09c0d \u003Cunknown>\n#18 0x7f9e8aa5a947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '865', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:32,195 Finished Request
+2022-07-03 21:08:42,202 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/refresh {}
+2022-07-03 21:08:45,008 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/refresh HTTP/1.1" 200 14
+2022-07-03 21:08:45,008 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:45,009 Finished Request
+2022-07-03 21:08:45,009 POST http://localhost:60353/session/eda4e0c14129db0d55d3b820940d6692/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:08:47,055 http://localhost:60353 "POST /session/eda4e0c14129db0d55d3b820940d6692/element HTTP/1.1" 404 865
+2022-07-03 21:08:47,055 Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".leftPanelText\"}\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x5580fdb86b13 \u003Cunknown>\n#1 0x5580fd98d688 \u003Cunknown>\n#2 0x5580fd9c4cc7 \u003Cunknown>\n#3 0x5580fd9c4e91 \u003Cunknown>\n#4 0x5580fd9f7e34 \u003Cunknown>\n#5 0x5580fd9e28dd \u003Cunknown>\n#6 0x5580fd9f5b94 \u003Cunknown>\n#7 0x5580fd9e27a3 \u003Cunknown>\n#8 0x5580fd9b80ea \u003Cunknown>\n#9 0x5580fd9b9225 \u003Cunknown>\n#10 0x5580fdbce2dd \u003Cunknown>\n#11 0x5580fdbd22c7 \u003Cunknown>\n#12 0x5580fdbb822e \u003Cunknown>\n#13 0x5580fdbd30a8 \u003Cunknown>\n#14 0x5580fdbacbc0 \u003Cunknown>\n#15 0x5580fdbef6c8 \u003Cunknown>\n#16 0x5580fdbef848 \u003Cunknown>\n#17 0x5580fdc09c0d \u003Cunknown>\n#18 0x7f9e8aa5a947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '865', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:08:47,055 Finished Request
+2022-07-03 21:08:49,314 The class wasn't found
+2022-07-03 21:08:49,318 Starting new HTTPS connection (1): api.telegram.org:443
+2022-07-03 21:09:11,376 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/url {"url": "https://cgifederal.secure.force.com"}
+2022-07-03 21:09:17,936 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/url HTTP/1.1" 200 14
+2022-07-03 21:09:17,937 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,937 Finished Request
+2022-07-03 21:09:17,937 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/timeouts {"implicit": 3000}
+2022-07-03 21:09:17,938 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/timeouts HTTP/1.1" 200 14
+2022-07-03 21:09:17,938 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,939 Finished Request
+2022-07-03 21:09:17,939 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450298, "httpOnly": false, "secure": false}}
+2022-07-03 21:09:17,944 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,944 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,945 Finished Request
+2022-07-03 21:09:17,945 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "LSKey-c$CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450379, "httpOnly": false, "secure": false}}
+2022-07-03 21:09:17,949 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,949 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,949 Finished Request
+2022-07-03 21:09:17,950 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "BrowserId", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450407, "httpOnly": false, "secure": false}}
+2022-07-03 21:09:17,955 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,955 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,955 Finished Request
+2022-07-03 21:09:17,956 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "BrowserId_sec", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450432, "httpOnly": false, "secure": true}}
+2022-07-03 21:09:17,959 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,959 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,959 Finished Request
+2022-07-03 21:09:17,959 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "__utma", "value": "1.1700014254.1656860731.1656860731.1656860731.1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1719932949, "httpOnly": false, "secure": false}}
+2022-07-03 21:09:17,962 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,963 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,963 Finished Request
+2022-07-03 21:09:17,963 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "__utmc", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": false}}
+2022-07-03 21:09:17,966 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,966 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,966 Finished Request
+2022-07-03 21:09:17,966 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "__utmz", "value": "1.1656860731.1.1.utmcsr=github.com|utmccn=(referral)|utmcmd=referral|utmcct=/sarthak-pokharel/USAVisaSlotNotifier", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1672628949, "httpOnly": false, "secure": false}}
+2022-07-03 21:09:17,970 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,970 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,970 Finished Request
+2022-07-03 21:09:17,970 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "__utmt", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656861331, "httpOnly": false, "secure": false}}
+2022-07-03 21:09:17,973 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,973 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,974 Finished Request
+2022-07-03 21:09:17,974 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "oinfo", "value": "c3RhdHVzPUFDVElWRSZ0eXBlPTYmb2lkPTAwREMwMDAwMDAwUGh1UA==", "domain": ".force.com", "path": "/", "expires": 1662044853.03895, "httpOnly": false, "secure": true}}
+2022-07-03 21:09:17,977 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,977 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,977 Finished Request
+2022-07-03 21:09:17,977 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "autocomplete", "value": "1", "domain": ".force.com", "path": "/", "expires": 1662044853.470398, "httpOnly": false, "secure": true}}
+2022-07-03 21:09:17,980 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,980 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,980 Finished Request
+2022-07-03 21:09:17,980 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "lloopch_loid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.47047, "httpOnly": false, "secure": true}}
+2022-07-03 21:09:17,983 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,984 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,984 Finished Request
+2022-07-03 21:09:17,984 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "lloopch_lpid", "value": "060C0000000QwL9", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.470512, "httpOnly": false, "secure": true}}
+2022-07-03 21:09:17,987 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,988 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,988 Finished Request
+2022-07-03 21:09:17,988 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "sid", "value": "00DC0000000PhuP!ARwAQPqBaO15pjWaN89_rj6Ys9QAAp_dwrc90qM8we601DHYity02OWXVab4IwRSP6qBM5mv_eIjskv.6y9mSAIAz4ffNsx5", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:09:17,991 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,991 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,991 Finished Request
+2022-07-03 21:09:17,991 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "sid_Client", "value": "d000001Okqs0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:09:17,994 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,995 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,995 Finished Request
+2022-07-03 21:09:17,995 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "clientSrc", "value": "110.44.120.35", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:09:17,998 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:17,998 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:17,998 Finished Request
+2022-07-03 21:09:17,998 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "inst", "value": "APP_3d", "domain": ".force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:09:18,001 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:18,002 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:18,002 Finished Request
+2022-07-03 21:09:18,002 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "oid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1719932853.47067, "httpOnly": false, "secure": true}}
+2022-07-03 21:09:18,005 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:18,005 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:18,005 Finished Request
+2022-07-03 21:09:18,006 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "apex__aa-time", "value": "hb_2BmDfvFU3UDe9mcB5k8Jg_3D_3D", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396855.229473, "httpOnly": false, "secure": true}}
+2022-07-03 21:09:18,009 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:18,010 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:18,010 Finished Request
+2022-07-03 21:09:18,010 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/cookie {"cookie": {"name": "__utmb", "value": "1.5.10.1656860731", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656862749, "httpOnly": false, "secure": false}}
+2022-07-03 21:09:18,012 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/cookie HTTP/1.1" 200 14
+2022-07-03 21:09:18,013 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:18,013 Finished Request
+2022-07-03 21:09:18,013 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/timeouts {"implicit": 2000}
+2022-07-03 21:09:18,014 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/timeouts HTTP/1.1" 200 14
+2022-07-03 21:09:18,014 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:18,014 Finished Request
+2022-07-03 21:09:18,014 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/url {"url": "https://cgifederal.secure.force.com/applicanthome"}
+2022-07-03 21:09:21,590 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/url HTTP/1.1" 200 14
+2022-07-03 21:09:21,590 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:21,591 Finished Request
+2022-07-03 21:09:21,591 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/refresh {}
+2022-07-03 21:09:24,928 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/refresh HTTP/1.1" 200 14
+2022-07-03 21:09:24,929 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:24,929 Finished Request
+2022-07-03 21:09:29,934 Log No : 1
+2022-07-03 21:09:29,935 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:09:31,974 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/element HTTP/1.1" 404 865
+2022-07-03 21:09:31,975 Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".leftPanelText\"}\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x5606046d3b13 \u003Cunknown>\n#1 0x5606044da688 \u003Cunknown>\n#2 0x560604511cc7 \u003Cunknown>\n#3 0x560604511e91 \u003Cunknown>\n#4 0x560604544e34 \u003Cunknown>\n#5 0x56060452f8dd \u003Cunknown>\n#6 0x560604542b94 \u003Cunknown>\n#7 0x56060452f7a3 \u003Cunknown>\n#8 0x5606045050ea \u003Cunknown>\n#9 0x560604506225 \u003Cunknown>\n#10 0x56060471b2dd \u003Cunknown>\n#11 0x56060471f2c7 \u003Cunknown>\n#12 0x56060470522e \u003Cunknown>\n#13 0x5606047200a8 \u003Cunknown>\n#14 0x5606046f9bc0 \u003Cunknown>\n#15 0x56060473c6c8 \u003Cunknown>\n#16 0x56060473c848 \u003Cunknown>\n#17 0x560604756c0d \u003Cunknown>\n#18 0x7fc142e28947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '865', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:31,975 Finished Request
+2022-07-03 21:09:41,985 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/refresh {}
+2022-07-03 21:09:44,224 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/refresh HTTP/1.1" 200 14
+2022-07-03 21:09:44,225 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:44,225 Finished Request
+2022-07-03 21:09:44,225 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:09:46,279 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/element HTTP/1.1" 404 865
+2022-07-03 21:09:46,279 Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".leftPanelText\"}\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x5606046d3b13 \u003Cunknown>\n#1 0x5606044da688 \u003Cunknown>\n#2 0x560604511cc7 \u003Cunknown>\n#3 0x560604511e91 \u003Cunknown>\n#4 0x560604544e34 \u003Cunknown>\n#5 0x56060452f8dd \u003Cunknown>\n#6 0x560604542b94 \u003Cunknown>\n#7 0x56060452f7a3 \u003Cunknown>\n#8 0x5606045050ea \u003Cunknown>\n#9 0x560604506225 \u003Cunknown>\n#10 0x56060471b2dd \u003Cunknown>\n#11 0x56060471f2c7 \u003Cunknown>\n#12 0x56060470522e \u003Cunknown>\n#13 0x5606047200a8 \u003Cunknown>\n#14 0x5606046f9bc0 \u003Cunknown>\n#15 0x56060473c6c8 \u003Cunknown>\n#16 0x56060473c848 \u003Cunknown>\n#17 0x560604756c0d \u003Cunknown>\n#18 0x7fc142e28947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '865', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:46,279 Finished Request
+2022-07-03 21:09:56,290 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/refresh {}
+2022-07-03 21:09:59,477 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/refresh HTTP/1.1" 200 14
+2022-07-03 21:09:59,477 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:09:59,478 Finished Request
+2022-07-03 21:09:59,478 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:10:01,486 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/element HTTP/1.1" 404 865
+2022-07-03 21:10:01,487 Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".leftPanelText\"}\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x5606046d3b13 \u003Cunknown>\n#1 0x5606044da688 \u003Cunknown>\n#2 0x560604511cc7 \u003Cunknown>\n#3 0x560604511e91 \u003Cunknown>\n#4 0x560604544e34 \u003Cunknown>\n#5 0x56060452f8dd \u003Cunknown>\n#6 0x560604542b94 \u003Cunknown>\n#7 0x56060452f7a3 \u003Cunknown>\n#8 0x5606045050ea \u003Cunknown>\n#9 0x560604506225 \u003Cunknown>\n#10 0x56060471b2dd \u003Cunknown>\n#11 0x56060471f2c7 \u003Cunknown>\n#12 0x56060470522e \u003Cunknown>\n#13 0x5606047200a8 \u003Cunknown>\n#14 0x5606046f9bc0 \u003Cunknown>\n#15 0x56060473c6c8 \u003Cunknown>\n#16 0x56060473c848 \u003Cunknown>\n#17 0x560604756c0d \u003Cunknown>\n#18 0x7fc142e28947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '865', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:01,487 Finished Request
+2022-07-03 21:10:11,497 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/refresh {}
+2022-07-03 21:10:14,673 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/refresh HTTP/1.1" 200 14
+2022-07-03 21:10:14,673 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:14,673 Finished Request
+2022-07-03 21:10:14,673 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:10:16,729 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/element HTTP/1.1" 404 865
+2022-07-03 21:10:16,730 Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".leftPanelText\"}\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x5606046d3b13 \u003Cunknown>\n#1 0x5606044da688 \u003Cunknown>\n#2 0x560604511cc7 \u003Cunknown>\n#3 0x560604511e91 \u003Cunknown>\n#4 0x560604544e34 \u003Cunknown>\n#5 0x56060452f8dd \u003Cunknown>\n#6 0x560604542b94 \u003Cunknown>\n#7 0x56060452f7a3 \u003Cunknown>\n#8 0x5606045050ea \u003Cunknown>\n#9 0x560604506225 \u003Cunknown>\n#10 0x56060471b2dd \u003Cunknown>\n#11 0x56060471f2c7 \u003Cunknown>\n#12 0x56060470522e \u003Cunknown>\n#13 0x5606047200a8 \u003Cunknown>\n#14 0x5606046f9bc0 \u003Cunknown>\n#15 0x56060473c6c8 \u003Cunknown>\n#16 0x56060473c848 \u003Cunknown>\n#17 0x560604756c0d \u003Cunknown>\n#18 0x7fc142e28947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '865', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:16,730 Finished Request
+2022-07-03 21:10:26,738 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/refresh {}
+2022-07-03 21:10:30,527 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/refresh HTTP/1.1" 200 14
+2022-07-03 21:10:30,528 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:30,528 Finished Request
+2022-07-03 21:10:30,528 POST http://localhost:51575/session/1e6ced6b907318e4dcd3e95d20f07df7/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:10:32,583 http://localhost:51575 "POST /session/1e6ced6b907318e4dcd3e95d20f07df7/element HTTP/1.1" 404 865
+2022-07-03 21:10:32,584 Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".leftPanelText\"}\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x5606046d3b13 \u003Cunknown>\n#1 0x5606044da688 \u003Cunknown>\n#2 0x560604511cc7 \u003Cunknown>\n#3 0x560604511e91 \u003Cunknown>\n#4 0x560604544e34 \u003Cunknown>\n#5 0x56060452f8dd \u003Cunknown>\n#6 0x560604542b94 \u003Cunknown>\n#7 0x56060452f7a3 \u003Cunknown>\n#8 0x5606045050ea \u003Cunknown>\n#9 0x560604506225 \u003Cunknown>\n#10 0x56060471b2dd \u003Cunknown>\n#11 0x56060471f2c7 \u003Cunknown>\n#12 0x56060470522e \u003Cunknown>\n#13 0x5606047200a8 \u003Cunknown>\n#14 0x5606046f9bc0 \u003Cunknown>\n#15 0x56060473c6c8 \u003Cunknown>\n#16 0x56060473c848 \u003Cunknown>\n#17 0x560604756c0d \u003Cunknown>\n#18 0x7fc142e28947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '865', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:32,584 Finished Request
+2022-07-03 21:10:35,224 The class wasn't found
+2022-07-03 21:10:35,227 Starting new HTTPS connection (1): api.telegram.org:443
+2022-07-03 21:10:39,675 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/url {"url": "https://cgifederal.secure.force.com"}
+2022-07-03 21:10:48,496 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/url HTTP/1.1" 200 14
+2022-07-03 21:10:48,496 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,496 Finished Request
+2022-07-03 21:10:48,496 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/timeouts {"implicit": 3000}
+2022-07-03 21:10:48,497 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/timeouts HTTP/1.1" 200 14
+2022-07-03 21:10:48,498 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,498 Finished Request
+2022-07-03 21:10:48,498 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450298, "httpOnly": false, "secure": false}}
+2022-07-03 21:10:48,503 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,503 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,503 Finished Request
+2022-07-03 21:10:48,503 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "LSKey-c$CookieConsentPolicy", "value": "0:1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396725.450379, "httpOnly": false, "secure": false}}
+2022-07-03 21:10:48,507 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,507 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,508 Finished Request
+2022-07-03 21:10:48,508 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "BrowserId", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450407, "httpOnly": false, "secure": false}}
+2022-07-03 21:10:48,511 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,512 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,512 Finished Request
+2022-07-03 21:10:48,512 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "BrowserId_sec", "value": "kSTbqfrhEeyvz5FGUL_xRw", "domain": ".force.com", "path": "/", "expires": 1688396725.450432, "httpOnly": false, "secure": true}}
+2022-07-03 21:10:48,518 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,518 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,518 Finished Request
+2022-07-03 21:10:48,518 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "__utma", "value": "1.1700014254.1656860731.1656860731.1656860731.1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1719932949, "httpOnly": false, "secure": false}}
+2022-07-03 21:10:48,521 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,522 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,522 Finished Request
+2022-07-03 21:10:48,523 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "__utmc", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": false}}
+2022-07-03 21:10:48,527 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,527 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,527 Finished Request
+2022-07-03 21:10:48,527 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "__utmz", "value": "1.1656860731.1.1.utmcsr=github.com|utmccn=(referral)|utmcmd=referral|utmcct=/sarthak-pokharel/USAVisaSlotNotifier", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1672628949, "httpOnly": false, "secure": false}}
+2022-07-03 21:10:48,530 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,531 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,531 Finished Request
+2022-07-03 21:10:48,531 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "__utmt", "value": "1", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656861331, "httpOnly": false, "secure": false}}
+2022-07-03 21:10:48,533 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,534 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,534 Finished Request
+2022-07-03 21:10:48,534 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "oinfo", "value": "c3RhdHVzPUFDVElWRSZ0eXBlPTYmb2lkPTAwREMwMDAwMDAwUGh1UA==", "domain": ".force.com", "path": "/", "expires": 1662044853.03895, "httpOnly": false, "secure": true}}
+2022-07-03 21:10:48,537 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,537 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,537 Finished Request
+2022-07-03 21:10:48,538 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "autocomplete", "value": "1", "domain": ".force.com", "path": "/", "expires": 1662044853.470398, "httpOnly": false, "secure": true}}
+2022-07-03 21:10:48,542 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,542 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,542 Finished Request
+2022-07-03 21:10:48,542 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "lloopch_loid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.47047, "httpOnly": false, "secure": true}}
+2022-07-03 21:10:48,545 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,546 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,546 Finished Request
+2022-07-03 21:10:48,546 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "lloopch_lpid", "value": "060C0000000QwL9", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1688396853.470512, "httpOnly": false, "secure": true}}
+2022-07-03 21:10:48,549 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,549 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,549 Finished Request
+2022-07-03 21:10:48,549 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "sid", "value": "00DC0000000PhuP!ARwAQPqBaO15pjWaN89_rj6Ys9QAAp_dwrc90qM8we601DHYity02OWXVab4IwRSP6qBM5mv_eIjskv.6y9mSAIAz4ffNsx5", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:10:48,552 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,552 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,553 Finished Request
+2022-07-03 21:10:48,553 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "sid_Client", "value": "d000001Okqs0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:10:48,556 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,556 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,556 Finished Request
+2022-07-03 21:10:48,556 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "clientSrc", "value": "110.44.120.35", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:10:48,560 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,560 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,560 Finished Request
+2022-07-03 21:10:48,560 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "inst", "value": "APP_3d", "domain": ".force.com", "path": "/", "expires": -1, "httpOnly": false, "secure": true}}
+2022-07-03 21:10:48,563 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,563 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,563 Finished Request
+2022-07-03 21:10:48,563 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "oid", "value": "00DC0000000PhuP", "domain": ".cgifederal.secure.force.com", "path": "/", "expires": 1719932853.47067, "httpOnly": false, "secure": true}}
+2022-07-03 21:10:48,566 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,567 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,567 Finished Request
+2022-07-03 21:10:48,567 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "apex__aa-time", "value": "hb_2BmDfvFU3UDe9mcB5k8Jg_3D_3D", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1688396855.229473, "httpOnly": false, "secure": true}}
+2022-07-03 21:10:48,570 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,570 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,570 Finished Request
+2022-07-03 21:10:48,570 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/cookie {"cookie": {"name": "__utmb", "value": "1.5.10.1656860731", "domain": "cgifederal.secure.force.com", "path": "/", "expires": 1656862749, "httpOnly": false, "secure": false}}
+2022-07-03 21:10:48,574 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/cookie HTTP/1.1" 200 14
+2022-07-03 21:10:48,574 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,574 Finished Request
+2022-07-03 21:10:48,574 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/timeouts {"implicit": 2000}
+2022-07-03 21:10:48,575 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/timeouts HTTP/1.1" 200 14
+2022-07-03 21:10:48,575 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:48,575 Finished Request
+2022-07-03 21:10:48,575 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/url {"url": "https://cgifederal.secure.force.com/applicanthome"}
+2022-07-03 21:10:55,513 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/url HTTP/1.1" 200 14
+2022-07-03 21:10:55,513 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:55,513 Finished Request
+2022-07-03 21:10:55,513 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/refresh {}
+2022-07-03 21:10:59,100 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/refresh HTTP/1.1" 200 14
+2022-07-03 21:10:59,100 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:10:59,100 Finished Request
+2022-07-03 21:11:04,102 Log No : 1
+2022-07-03 21:11:04,102 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:11:06,145 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/element HTTP/1.1" 404 865
+2022-07-03 21:11:06,146 Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".leftPanelText\"}\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x561a51879b13 \u003Cunknown>\n#1 0x561a51680688 \u003Cunknown>\n#2 0x561a516b7cc7 \u003Cunknown>\n#3 0x561a516b7e91 \u003Cunknown>\n#4 0x561a516eae34 \u003Cunknown>\n#5 0x561a516d58dd \u003Cunknown>\n#6 0x561a516e8b94 \u003Cunknown>\n#7 0x561a516d57a3 \u003Cunknown>\n#8 0x561a516ab0ea \u003Cunknown>\n#9 0x561a516ac225 \u003Cunknown>\n#10 0x561a518c12dd \u003Cunknown>\n#11 0x561a518c52c7 \u003Cunknown>\n#12 0x561a518ab22e \u003Cunknown>\n#13 0x561a518c60a8 \u003Cunknown>\n#14 0x561a5189fbc0 \u003Cunknown>\n#15 0x561a518e26c8 \u003Cunknown>\n#16 0x561a518e2848 \u003Cunknown>\n#17 0x561a518fcc0d \u003Cunknown>\n#18 0x7fe10ddd8947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '865', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:11:06,146 Finished Request
+2022-07-03 21:11:16,156 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/refresh {}
+2022-07-03 21:11:24,846 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/refresh HTTP/1.1" 200 14
+2022-07-03 21:11:24,846 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:11:24,846 Finished Request
+2022-07-03 21:11:24,847 POST http://localhost:48669/session/f75181d17480b5553aef613e5a732302/element {"using": "css selector", "value": ".leftPanelText"}
+2022-07-03 21:11:26,867 http://localhost:48669 "POST /session/f75181d17480b5553aef613e5a732302/element HTTP/1.1" 404 865
+2022-07-03 21:11:26,868 Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".leftPanelText\"}\n  (Session info: chrome=103.0.5060.53)","stacktrace":"#0 0x561a51879b13 \u003Cunknown>\n#1 0x561a51680688 \u003Cunknown>\n#2 0x561a516b7cc7 \u003Cunknown>\n#3 0x561a516b7e91 \u003Cunknown>\n#4 0x561a516eae34 \u003Cunknown>\n#5 0x561a516d58dd \u003Cunknown>\n#6 0x561a516e8b94 \u003Cunknown>\n#7 0x561a516d57a3 \u003Cunknown>\n#8 0x561a516ab0ea \u003Cunknown>\n#9 0x561a516ac225 \u003Cunknown>\n#10 0x561a518c12dd \u003Cunknown>\n#11 0x561a518c52c7 \u003Cunknown>\n#12 0x561a518ab22e \u003Cunknown>\n#13 0x561a518c60a8 \u003Cunknown>\n#14 0x561a5189fbc0 \u003Cunknown>\n#15 0x561a518e26c8 \u003Cunknown>\n#16 0x561a518e2848 \u003Cunknown>\n#17 0x561a518fcc0d \u003Cunknown>\n#18 0x7fe10ddd8947 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '865', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-03 21:11:26,868 Finished Request
+2022-07-03 21:11:27,417 The class wasn't found
+2022-07-03 21:11:27,420 Starting new HTTPS connection (1): api.telegram.org:443
+2022-07-03 21:11:28,491 https://api.telegram.org:443 "GET /botInsert%20Here%20Token%20from%20BotFather/sendMessage?parse_mode=MARKDOWN HTTP/1.1" 404 55
+2022-07-03 21:11:28,492 {"ok":false,"error_code":404,"description":"Not Found"}
+2022-07-03 21:11:28,492 DELETE http://localhost:48669/session/f75181d17480b5553aef613e5a732302/window {}
+2022-07-03 21:11:28,493 Resetting dropped connection: localhost
+2022-07-03 21:11:28,494 Incremented Retry for (url='/session/f75181d17480b5553aef613e5a732302/window'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2022-07-03 21:11:28,494 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feeb3096280>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/f75181d17480b5553aef613e5a732302/window
+2022-07-03 21:11:28,494 Starting new HTTP connection (2): localhost:48669
+2022-07-03 21:11:28,494 Incremented Retry for (url='/session/f75181d17480b5553aef613e5a732302/window'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2022-07-03 21:11:28,494 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feeb3096760>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/f75181d17480b5553aef613e5a732302/window
+2022-07-03 21:11:28,495 Starting new HTTP connection (3): localhost:48669
+2022-07-03 21:11:28,495 Incremented Retry for (url='/session/f75181d17480b5553aef613e5a732302/window'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2022-07-03 21:11:28,495 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feeb30967c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/f75181d17480b5553aef613e5a732302/window
+2022-07-03 21:11:28,495 Starting new HTTP connection (4): localhost:48669
