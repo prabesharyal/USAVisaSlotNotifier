@@ -4,7 +4,7 @@ import time
 import logging
 import requests
 
-
+#This is outdated so adding new stuffs.
 #Importing Submodules
 from selenium import webdriver
 from selenium.webdriver.common.by import By
