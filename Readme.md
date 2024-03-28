@@ -4,10 +4,10 @@
  1. [Introduction](#1)
     1. [Abot Bot](#1.1)
  2. [Get All Variables](#2)
-	1. [BOT Token](#2.1)
-  2. [City Code](#2.2)
-  3. [VISA Type](#2.3)
-	4. [Chat ID's](#2.4)
+    1. [BOT Token](#2.1)
+    2. [City Code](#2.2)
+    3. [VISA Type](#2.3)
+    4. [Chat ID's](#2.4)
  3. [Required Softwares](#3)
     1. [Python](#3.1)
 		1. [PIPs](#3.1.1)
@@ -22,8 +22,8 @@ This bot is make specifically for one purpose. That is to monitor visa appointme
 # Get Variables <a name="2"></a>
 
 ## Bot Token <a name="2.1"></a>
- - You can get Telegram Bot Token from BotFather bot on telegram.
- 
+- You can get Telegram Bot Token from BotFather bot on telegram.
+
 ## Getting City Code <a name="2.2"></a>
 You've to get your city code from [this site](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/wait-times.html) by inspecting network headers.
 >- First visit site
