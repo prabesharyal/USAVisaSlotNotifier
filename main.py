@@ -1,14 +1,13 @@
 import requests, time, os
 from dotenv import load_dotenv
+
 load_dotenv()
 
 
 BOT_API = os.getenv("TELEGRAM_BOT_TOKEN")
 CITY = os.getenv("CITY")
 VISA = int(os.getenv("VISA"))
-RESPECTIVE_CHATS = [
-    int(x) for x in os.getenv("CHATS").split(",")
-]
+RESPECTIVE_CHATS = [int(x) for x in os.getenv("CHATS").split(",")]
 
 
 # The code is too much modififable as per the use cases.
@@ -51,7 +50,11 @@ def send_telegram_message(chat_id: int, message: str, BOT_Hash=BOT_API):
     send_message = requests.get(api_URL, data=parameters)
     response_json = send_message.json()
     if send_message.status_code == 200:
-        print("Sent '{}' to {}".format(message, response_json['result']['chat']['first_name']))
+        print(
+            "Sent '{}' to {}".format(
+                message, response_json["result"]["chat"]["first_name"]
+            )
+        )
         return True
     else:
         return False
@@ -67,7 +70,7 @@ def initialize_logic():
         elif new_date == 404:
             raise "SiteError: Couldn't Get Date From the main Site"
         time.sleep(1)
-        previous_date=new_date
+        previous_date = new_date
 
 
 def main():
@@ -77,6 +80,9 @@ def main():
     except Exception as e:
         print("Some error occurred.")
         print(e)
+        return False
 
-if __name__ == '__main__':
-    main()
+
+if __name__ == "__main__":
+    while True:
+        main()
